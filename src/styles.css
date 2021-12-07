@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 8px;
+}
+
+.post {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  font-size: 18;
+  background-color: white;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
